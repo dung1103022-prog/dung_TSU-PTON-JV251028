@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text-1 {
+    padding: 10px;
+    background-color: hsl(57.45deg 100% 90.78%);
+    margin-left: 20px;
+    border-left: 5px solid #ff6116;
+}
+.header {
+    border-left: 5px solid #ff6116;
+    margin-bottom: 12px;
+
+}
+.external {
+    color: hsl(36.19deg 100% 62.94%);
+    
+}

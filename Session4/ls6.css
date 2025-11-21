@@ -1,0 +1,17 @@
+.box {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    background-color: hsl(48deg 100% 93.14%);
+    border: 50px 50px 50px;
+}
+.text1 {
+    color: hsl(240deg 100% 27.25%);
+}
+
+.button:hover {
+    background-color: hsl(120deg 100% 25.1%);
+    color: white;
+
+}

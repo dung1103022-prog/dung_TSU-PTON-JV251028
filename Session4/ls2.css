@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    position: sticky;
+    padding: 20px;
+
+}
+p {
+    background-color: gray;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    text-align: center;
+    color: cornsilk;
+    margin-right: 10px;
+}
