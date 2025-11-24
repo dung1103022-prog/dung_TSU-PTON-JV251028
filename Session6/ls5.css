@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    padding: 20px;
+    width: 100%;
+}
+.title {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    background-color: rgb(61, 237, 61);
+    color: white;
+    padding: 10px 20px;
+}
+.title img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid black;
+    object-fit: cover;
+}
+.title p {
+    display: flex;
+    gap: 20px;
+}
+.title a {
+    text-decoration: none;
+    color: white;
+}
+.main {
+    text-align: center;
+    color: black;
+    background-color: hsl(0deg 0% 95.69%);
+    padding: 100px;
+    
+}
+.main h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main p {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.main a{
+    margin-top: 30px;
+    background-color: rgb(61, 237, 61);
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.post {
+    margin-top: 30px;
+}
+.post p {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.post a {
+    justify-content: center;
+    background-color: hsl(0deg 0% 86.67%);
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+    padding: 15px 21s0px;
+    border-radius: 5px;
+    display: inline;
+    text-align: center;
+}
+footer {
+    margin-top: 30px;
+    text-align: center;
+    background-color: gray;
+    padding: 20px 20px;
+
+}
