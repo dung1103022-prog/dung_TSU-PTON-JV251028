@@ -1,0 +1,101 @@
+* {
+    margin: 10px;
+    box-sizing: border-box;
+}
+.fadein {
+    margin-bottom: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: grey;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 1s;
+}
+.fadein:hover {
+    background-color: black;
+}
+.change {
+    margin-bottom: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: grey;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.change:hover {
+    background-color: blue;
+}
+.grow {
+    margin-bottom: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: grey;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 2s;
+}
+.grow:hover {
+    transform: scale(1.1);
+}
+.shrink {
+    margin-bottom: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: grey;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s;
+}
+.shrink:hover {
+    transform: scale(0.8);
+}
+.rotate {
+    margin-bottom: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: grey;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s;
+}
+.rotate:hover {
+    transform: rotate(-30deg);
+}
+.square {
+    margin-bottom: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: grey;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-radius 3s;
+}
+.square:hover {
+    border-radius: 180px;
+}
+.insert {
+    margin-bottom: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: grey;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s;
+}
+.insert:hover {
+    transform: scale(0.8);
+}

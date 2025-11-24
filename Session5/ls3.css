@@ -1,0 +1,11 @@
+a {
+    background-color: rgb(240 240 240);
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+a:active {
+    background-color: red;
+    color: white;
+}
