@@ -1,0 +1,6 @@
+.button {
+    border-top: 2px solid orangered;
+    border-left: 5px groove palevioletred;
+    border-right: 2px dotted blue;
+    border-bottom: 3px double green;
+}
