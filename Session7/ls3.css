@@ -1,0 +1,18 @@
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.box-item {
+    width: calc(25% - 20px);
+    height: 50px;
+    background-color: greenyellow;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    border: 5px;
+
+}
+.large {
+    width: calc(50% - 20px);
+}

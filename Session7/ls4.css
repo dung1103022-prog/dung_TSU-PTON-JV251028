@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    height: 50px;
+    background-color: rgb(101, 184, 236);
+    color: white;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+.container {
+    display: flex;
+    gap: 10px;
+    height: calc(100vh - 120px);
+}
+.sidebar {
+    width: 25%;
+    background-color: rgb(38, 149, 38);
+    color: white;
+}
+.content {
+    flex: 1;
+    background-color: red;
+    color: white;
+}
+footer {
+    height: 50px;
+    background-color: violet;
+    color: white;
+    margin-top: 10px;
+}
