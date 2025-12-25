@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bookmark App</title>
+  <link rel="stylesheet" href="BookMark.css">
+</head>
+<body>
+
+<div class="app">
+  <button id="addBtn" class="add-btn">ADD BOOKMARK</button>
+
+  <div id="bookmarkList" class="bookmark-list"></div>
+</div>
+<div class="modal" id="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h3>Add Bookmark</h3>
+      <span id="closeModal">×</span>
+    </div>
+
+    <form id="bookmarkForm">
+      <label>Website Name</label>
+      <input type="text" id="siteName">
+
+      <label>Website URL</label>
+      <input type="text" id="siteUrl">
+
+      <button type="submit">Save</button>
+    </form>
+  </div>
+</div>
+
+<script src="BookMark.js"></script>
+</body>
+</html>

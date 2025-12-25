@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: #2e1f47;
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(255,255,255,0.03) 0,
+    rgba(255,255,255,0.03) 1px,
+    transparent 1px,
+    transparent 20px
+  );
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.app {
+  width: 500px;
+}
+
+.add-btn {
+  width: 100%;
+  padding: 14px;
+  background: #3a2a5d;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.bookmark-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.bookmark {
+  background: #3a2a5d;
+  padding: 15px;
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bookmark a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.delete {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* MODAL */
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #8e6ec7;
+  padding: 20px;
+  width: 350px;
+  border-radius: 8px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.modal-header span {
+  cursor: pointer;
+  font-size: 22px;
+}
+
+form label {
+  color: #fff;
+  font-size: 14px;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0 12px;
+  border-radius: 5px;
+  border: none;
+}
+
+form button {
+  padding: 10px;
+  width: 100px;
+  background: #6c4aa5;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
