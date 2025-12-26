@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ls3.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form id="form">
+            <label for="email">Email:</label>
+            <input type="text" id="email" placeholder="Enter your email address">
+            <small class="error-email"></small>
+            
+            <label for="password">Password:</label>
+            <div class="password-wrapper">
+                <input type="password" id="password" placeholder="Enter your password">
+                <span class="toggle-password" onclick="togglePassword()">@</span>
+            </div>
+            <small class="error-password"></small>
+
+            <label class="remember">
+                <input type="checkbox" class="checkbox" id="remember"> Remember me (24h)
+            </label>
+
+
+            <button class="btn" type="submit">Login</button>
+            <footer class="footer"><a href="">Forgot password?</a>or<a href="">SignUp</a></footer>
+        </form>
+    </div>
+    <script src="./ls3.js"></script>
+</body>
+</html>
