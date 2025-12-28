@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+.table {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+.Block {
+    background-color: pink;
+    color: white;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    width: calc(25% - 10px);
+
+}
+@media screen and (max-width: 1024px) {
+    .Block {
+        width: calc(50% - 10px);
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .Block {
+        width: calc(100% - 10px);
+    }
+    
+}
