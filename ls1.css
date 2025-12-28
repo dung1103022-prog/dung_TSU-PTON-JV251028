@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.table {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.Block {
+    width: calc(50% - 20px);
+    background-color: aqua;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.large {
+    width: calc(100% - 20px);
+}
+@media screen and (max-width: 1024px) {
+    .Block {
+        width: calc(100% - 20px);
+    } 
+    
+}
+
