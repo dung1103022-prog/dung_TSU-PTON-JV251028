@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ls5.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Quan ly sinh vien</h2>
+        <div class="input-group">
+            <input id="name" type="text" placeholder="Ten sinh vien">
+            <input id="age" type="number" placeholder="Tuoi">
+            <input id="className" type="text" placeholder="Lop">
+            <button onclick="handleCreateStudent()">Them sinh vien</button>
+
+        </div>
+        <!-- pham vi input search -->
+        <div class="search">
+            <input type="text" placeholder="Tim kiem sinh vien">
+        </div>
+        <!-- pham vi danh sach sinh vien -->
+         <table border="1">
+            <thead>
+                <tr>
+                    <th>Ten</th>
+                    <th>Tuoi</th>
+                    <th>Lop</th>
+                    <th>Hanh dong</th>
+
+                </tr>
+            </thead>
+            <tbody id="studentList"></tbody>
+         </table>
+    </div>
+    <script src="./ls5.js"></script>
+</body>
+</html>
