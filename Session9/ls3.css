@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+.menu {
+}
+.img-menu {
+    width: 1170px;
+    height: 48px;
+    margin: 50px 135px 100px 135px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.content-left {
+    width: 50%;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.get-started {
+    background-color: #00bcd4;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.play-button img {
+    width: 30px;
+    height: 30px;
+}
+
+.content-right {
+    position: relative;
+    width: 50%;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+}
+
+.stick-card {
+    position: absolute;
+}
+
+.stick-card-left {
+    top: 20%;
+    left: -10%;
+}
+
+.stick-card-left-2 {
+    top: 40%;
+    left: 10%;
+}
+
+.stick-card-right {
+    bottom: 10%;
+    right: -10%;
+}
+
+.card-image {
+    width: 100px;
+    height: auto;
+}
+
+.stick-card img {
+    width: 100%;
+    height: auto;
+}
+
+.stick-card-left, .stick-card-left-2 {
+    transform: rotate(-15deg);
+}
+
+.stick-card-right {
+    transform: rotate(15deg);
+}
